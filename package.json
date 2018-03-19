@@ -1,0 +1,18 @@
+{
+  "name": "2D Rally",
+  "version": "1.0.0",
+  "description": "Multplayer rally game",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mavroudis Papas",
+  "license": "ISC",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "matter-js": "^0.14.0",
+    "p5": "^0.5.16",
+    "poly-decomp": "^0.2.1",
+    "socket.js": "^0.1.4"
+  }
+}

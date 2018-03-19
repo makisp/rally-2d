@@ -1,0 +1,193 @@
+* {
+    font-family: Roboto Condensed, sans-serif;
+}
+
+#canvas {
+    width: auto;
+    height: auto;
+}
+
+#login, #win-frame, #host, #server {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 275px;
+    left: 200px;
+    background-color: rgba(51, 51, 51, 0.95);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(232, 110, 39, 0.5);
+}
+
+#login {
+    width: auto;
+    height: auto;
+    top: 375px;
+    text-align: center;
+}
+
+#host {
+    display: none;
+    height: 545px;
+    top: 100;
+}
+
+#server {
+    display: none;
+    height: 400px;
+    top: 200;
+    text-align: center;
+}
+
+#player-container {
+    width: 390px;
+    height: 270px;
+    margin: 4px auto 10px auto;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 30px black;
+}
+
+.players, .player-list {
+    margin: 30px 255px 20px auto;
+    color: white;
+    font-size: 25px;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.7);
+}
+
+.player-list {
+    margin: 0;
+}
+
+#server-name, #track-selection, #laps-selection, #online {
+    margin: 10px auto 0px 30px;
+    font-size: 25px;
+    color: white;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.7);
+}
+
+#error-text {
+    margin: 0px auto 0px 10px;
+    font-size: 20px;
+    font-style: italic;
+    color: red;
+}
+
+#laps-selection {
+    margin-top: 20px;
+    float: left;
+}
+
+#online {
+    margin-left: 5px;
+    float: left;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    margin: 10px auto 10px 28px;
+    cursor:pointer;
+    border-style: solid;
+    border-width: 3;
+    border-color: black;
+}
+
+#input-name, #input-laps {
+    width: 200px;
+    height: 50px;
+    margin: 40px 100px 0px 100px;
+    font-size: 20px;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(91, 91, 91, 0.9);
+    color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+#input-name {
+    margin: 10px 10px 10px 10px;
+}
+
+#input-laps {
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin: 10px 150px 0px auto;
+}
+
+#button-join, #button-host, #button-continue, #button-back, #button-create, #button-start {
+    width: 95px;
+    height: 50px;
+    margin: 20px auto 0px 100px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(91, 91, 91, 0.9);
+    color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+#button-host, #button-join {
+    margin: 10px 10px 0px 0px;
+}
+
+#button-back {
+    float: left;
+    margin: 30px auto 0px 35px;
+}
+
+#button-create {
+    float: right;
+    margin: 19px 35px 0px 0px; 
+}
+
+#button-start {
+    margin: 7px auto auto auto;
+}
+
+#button-join:hover, #button-continue:hover, #button-host:hover, #button-back:hover, #button-create:hover, #button-start:hover {
+    box-shadow: inset 0px 0px 2px black;
+}
+
+#button-join:active, #button-continue:active, #button-host:active, #button-back:active, #button-create:active, #button-start:active {
+    box-shadow: inset 0px 0px 10px black;
+}
+
+#countdown-start {
+    position: absolute;
+    top: 140px;
+    left: 360px;
+    font-size: 150px;
+    color: white;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.7);
+}
+
+#lap {
+    position: absolute;
+    top: -30px;
+    left: 20px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.7);
+}
+
+#win-frame {
+    text-align: center;
+    display: none;
+}
+
+#winner {
+    margin-top: 50px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.7);
+}
+
+#button-continue {
+    margin: 0px 150px 0px 150px;
+}
